@@ -1,0 +1,9680 @@
+{
+ "meta": {
+  "note": "SR1(진입 시작)·SR2(관측 종점)·SR3(관측 반복수 이내) 통과 = Threat Knowledge Base. 2-track 유지."
+ },
+ "stats": {
+  "terminals_SR2": [
+   "DAC-UBD",
+   "EXE",
+   "ID-ER",
+   "ID-RG",
+   "INV-SCU",
+   "PST-MEM",
+   "SC-BIZ",
+   "SC-DAT",
+   "SC-SYS"
+  ],
+  "repeat_caps_SR3": {
+   "DAC-UBD": 2,
+   "ENT-II": 2,
+   "EXE": 2,
+   "INV-AT": 3
+  },
+  "funnel": {
+   "input": 1665,
+   "sr1_start": 1665,
+   "sr2_terminal": 952,
+   "sr3_repeat": 675
+  },
+  "final_total": 675,
+  "track1_coverage_exact": 27,
+  "cases_covered": "22/22",
+  "track2_diversity": 648,
+  "track2_detail": {
+   "novel": 626,
+   "subpath_variant": 22
+  }
+ },
+ "threat_knowledge": [
+  {
+   "path": [
+    "ENT-DI",
+    "EXE"
+   ],
+   "length": 2,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0052"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 2,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0040",
+    "CS0066"
+   ]
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 3,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0062"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 3,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0046"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0020"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0021",
+    "CS0029"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 3,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0055"
+   ]
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 4,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0016"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0066"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 4,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0067"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 4,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0026"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 4,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 4,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0045"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0066"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0038"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0059"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0024"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0039"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 6,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 6,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0037"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0051"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0054"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0035"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 1,
+   "align": "exact",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 2,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0059"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 2,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0045",
+    "CS0046",
+    "CS0051"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 2,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0021",
+    "CS0024",
+    "CS0026",
+    "CS0029",
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 2,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0055",
+    "CS0063",
+    "CS0067"
+   ]
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0035"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0059"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0051"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0037",
+    "CS0038",
+    "CS0066"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0051"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0054"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 3,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0045"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0039",
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0059"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 4,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0035"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0037"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0035"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 5,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0051"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "subpath",
+   "source_cases": [
+    "CS0063"
+   ]
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 6,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-DI",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "PST-MEM"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-CFG",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-KB",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "DAC-SRD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-CS",
+    "ID-RG",
+    "HD-UI",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-BIZ"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "DAC-UBD",
+    "INV-AT",
+    "PA-GA",
+    "SC-SYS"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "EXE",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "DAC-UBD"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "DAC-UBD",
+    "INV-AT",
+    "INV-SCU"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-AT",
+    "INV-SCU",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "EXE",
+    "SC-DAT"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "DAC-CS",
+    "ID-RG",
+    "ID-ER"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "EXE"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  },
+  {
+   "path": [
+    "ENT-II",
+    "PST-MEM",
+    "ENT-II",
+    "INV-SCU",
+    "EXE",
+    "DAC-CS",
+    "ID-RG"
+   ],
+   "length": 7,
+   "track": 2,
+   "align": "novel",
+   "source_cases": []
+  }
+ ],
+ "covered_cases": [
+  "CS0016",
+  "CS0020",
+  "CS0021",
+  "CS0024",
+  "CS0026",
+  "CS0029",
+  "CS0035",
+  "CS0037",
+  "CS0038",
+  "CS0039",
+  "CS0040",
+  "CS0045",
+  "CS0046",
+  "CS0051",
+  "CS0052",
+  "CS0054",
+  "CS0055",
+  "CS0059",
+  "CS0062",
+  "CS0063",
+  "CS0066",
+  "CS0067"
+ ]
+}

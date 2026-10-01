@@ -1,0 +1,138 @@
+{
+ "banking": {
+  "send_money": {
+   "benign": "user_task_0",
+   "slot": "injection_bill_text"
+  },
+  "schedule_transaction": {
+   "benign": "user_task_5",
+   "slot": "injection_incoming_transaction"
+  },
+  "update_scheduled_transaction": {
+   "benign": "user_task_5",
+   "slot": "injection_incoming_transaction"
+  },
+  "update_password": {
+   "benign": "user_task_2",
+   "slot": "injection_landloard_notice"
+  },
+  "update_user_info": {
+   "benign": "user_task_2",
+   "slot": "injection_landloard_notice"
+  },
+  "get_user_info": {
+   "benign": "user_task_3",
+   "slot": "injection_incoming_transaction"
+  },
+  "(agent_response)": {
+   "benign": "user_task_3",
+   "slot": "injection_incoming_transaction"
+  }
+ },
+ "slack": {
+  "send_channel_message": {
+   "benign": "user_task_3",
+   "slot": "injection_web_0"
+  },
+  "send_direct_message": {
+   "benign": "user_task_15",
+   "slot": "injection_web_0"
+  },
+  "invite_user_to_slack": {
+   "benign": "user_task_17",
+   "slot": "injection_web_0"
+  },
+  "add_user_to_channel": {
+   "benign": "user_task_17",
+   "slot": "injection_web_0"
+  },
+  "remove_user_from_slack": {
+   "benign": "user_task_17",
+   "slot": "injection_web_0"
+  },
+  "post_webpage": {
+   "benign": "user_task_15",
+   "slot": "injection_web_0"
+  },
+  "get_webpage": {
+   "benign": "user_task_15",
+   "slot": "injection_web_0"
+  },
+  "read_channel_messages": {
+   "benign": "user_task_3",
+   "slot": "injection_web_0"
+  },
+  "(agent_response)": {
+   "benign": "user_task_0",
+   "slot": "injection_web_0"
+  }
+ },
+ "travel": {
+  "reserve_hotel": {
+   "benign": "user_task_0",
+   "slot": "injection_hotels_0"
+  },
+  "reserve_car_rental": {
+   "benign": "user_task_0",
+   "slot": "injection_hotels_0"
+  },
+  "reserve_restaurant": {
+   "benign": "user_task_0",
+   "slot": "injection_hotels_0"
+  },
+  "send_email": {
+   "benign": "user_task_3",
+   "slot": "injection_hotels_0"
+  },
+  "create_calendar_event": {
+   "benign": "user_task_3",
+   "slot": "injection_hotels_0"
+  },
+  "get_user_information": {
+   "benign": "user_task_3",
+   "slot": "injection_hotels_0"
+  },
+  "(agent_response)": {
+   "benign": "user_task_3",
+   "slot": "injection_hotels_0"
+  }
+ },
+ "workspace": {
+  "create_calendar_event": {
+   "benign": "user_task_13",
+   "slot": "drive_team_building_injection"
+  },
+  "cancel_calendar_event": {
+   "benign": "user_task_15",
+   "slot": "email_events_injection"
+  },
+  "reschedule_calendar_event": {
+   "benign": "user_task_15",
+   "slot": "email_events_injection"
+  },
+  "add_calendar_event_participants": {
+   "benign": "user_task_15",
+   "slot": "email_events_injection"
+  },
+  "delete_email": {
+   "benign": "user_task_15",
+   "slot": "email_events_injection"
+  },
+  "send_email": {
+   "benign": "user_task_13",
+   "slot": "drive_team_building_injection"
+  },
+  "share_file": {
+   "benign": "user_task_13",
+   "slot": "drive_team_building_injection"
+  },
+  "get_received_emails": {
+   "benign": "user_task_18",
+   "slot": "email_hiking_injection"
+  },
+  "(agent_response)": {
+   "benign": "user_task_31",
+   "slot": "drive_keywords_stuffing_injection"
+  }
+ }
+}

@@ -1,0 +1,89 @@
+agent: agentdojo_workspace
+injection_surface:
+- tool_output
+pre_satisfied:
+- PA-GA
+node_tools:
+  ENT-DI: []
+  ENT-II:
+  - get_unread_emails
+  - get_sent_emails
+  - get_received_emails
+  - get_draft_emails
+  - search_emails
+  - search_contacts_by_name
+  - search_contacts_by_email
+  - search_calendar_events
+  - get_day_calendar_events
+  - search_files_by_filename
+  - get_file_by_id
+  - list_files
+  - search_files
+  PA-GA: []
+  DAC-UBD:
+  - get_unread_emails
+  - get_sent_emails
+  - get_received_emails
+  - get_draft_emails
+  - search_emails
+  - search_contacts_by_name
+  - search_contacts_by_email
+  - search_calendar_events
+  - get_day_calendar_events
+  - search_files_by_filename
+  - get_file_by_id
+  - list_files
+  - search_files
+  DAC-CS: []
+  DAC-SRD: []
+  INV-AT:
+  - send_email
+  - delete_email
+  - get_unread_emails
+  - get_sent_emails
+  - get_received_emails
+  - get_draft_emails
+  - search_emails
+  - search_contacts_by_name
+  - search_contacts_by_email
+  - get_current_day
+  - search_calendar_events
+  - get_day_calendar_events
+  - create_calendar_event
+  - cancel_calendar_event
+  - reschedule_calendar_event
+  - add_calendar_event_participants
+  - append_to_file
+  - search_files_by_filename
+  - create_file
+  - delete_file
+  - get_file_by_id
+  - list_files
+  - share_file
+  - search_files
+  INV-SCU: []
+  EXE: []
+  SC-SYS: []
+  SC-DAT:
+  - send_email
+  - delete_email
+  - create_calendar_event
+  - cancel_calendar_event
+  - reschedule_calendar_event
+  - add_calendar_event_participants
+  - append_to_file
+  - create_file
+  - delete_file
+  - share_file
+  SC-BIZ: []
+  PST-MEM: []
+  PST-KB: []
+  PST-CFG: []
+  ID-RG:
+  - (agent response)
+  ID-ER:
+  - send_email
+  - share_file
+  HD-UI: []
+  HD-UAD: []
+_source: g0_capability_tagging (anchored-LLM, temp=0)

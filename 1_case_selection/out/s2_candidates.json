@@ -1,0 +1,1984 @@
+{
+ "candidates": [
+  "AML.CS0016",
+  "AML.CS0020",
+  "AML.CS0021",
+  "AML.CS0022",
+  "AML.CS0024",
+  "AML.CS0026",
+  "AML.CS0029",
+  "AML.CS0035",
+  "AML.CS0036",
+  "AML.CS0037",
+  "AML.CS0038",
+  "AML.CS0039",
+  "AML.CS0040",
+  "AML.CS0041",
+  "AML.CS0043",
+  "AML.CS0045",
+  "AML.CS0046",
+  "AML.CS0047",
+  "AML.CS0048",
+  "AML.CS0049",
+  "AML.CS0050",
+  "AML.CS0051",
+  "AML.CS0052",
+  "AML.CS0053",
+  "AML.CS0054",
+  "AML.CS0055",
+  "AML.CS0056",
+  "AML.CS0057",
+  "AML.CS0059",
+  "AML.CS0060",
+  "AML.CS0061",
+  "AML.CS0062",
+  "AML.CS0063",
+  "AML.CS0064",
+  "AML.CS0066",
+  "AML.CS0067",
+  "AML.CS0068",
+  "AML.CS0069",
+  "AML.CS0071"
+ ],
+ "evidence": {
+  "AML.CS0016": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0020": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0021": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0077",
+    "technique_name": "LLM Response Rendering",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0022": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0062",
+    "technique_name": "Discover LLM Hallucinations",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0060",
+    "technique_name": "Publish Hallucinated Entities",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0024": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0051.002",
+    "technique_name": "Triggered",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0061",
+    "technique_name": "LLM Prompt Self-Replication",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0057",
+    "technique_name": "LLM Data Leakage",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0026": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0064",
+    "technique_name": "Gather RAG-Indexed Targets",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0069.000",
+    "technique_name": "Special Character Sets",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0069.001",
+    "technique_name": "System Instruction Keywords",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0066",
+    "technique_name": "Retrieval Content Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0070",
+    "technique_name": "RAG Poisoning",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0071",
+    "technique_name": "False RAG Entry Injection",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S10",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S11",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S12",
+    "technique": "AML.T0067.000",
+    "technique_name": "Citations",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0029": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0077",
+    "technique_name": "LLM Response Rendering",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0035": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0066",
+    "technique_name": "Retrieval Content Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S01",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0070",
+    "technique_name": "RAG Poisoning",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0082",
+    "technique_name": "RAG Credential Harvesting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0077",
+    "technique_name": "LLM Response Rendering",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0036": [
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0080.001",
+    "technique_name": "Thread",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0080.000",
+    "technique_name": "Memory",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0092",
+    "technique_name": "Manipulate User LLM Chat History",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0037": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0051.002",
+    "technique_name": "Triggered",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0084.002",
+    "technique_name": "Activation Triggers",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0084.001",
+    "technique_name": "Tool Definitions",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0051",
+    "technique_name": "LLM Prompt Injection",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0084.000",
+    "technique_name": "Embedded Knowledge",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0084.001",
+    "technique_name": "Tool Definitions",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S10",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S11",
+    "technique": "AML.T0085.000",
+    "technique_name": "RAG Databases",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S12",
+    "technique": "AML.T0085.001",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S13",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0038": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S01",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0094",
+    "technique_name": "Delay Execution of LLM Instructions",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0085.001",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0039": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0085.001",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0040": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S01",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0080.000",
+    "technique_name": "Memory",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0041": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0081",
+    "technique_name": "Modify AI Agent Configuration",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0067",
+    "technique_name": "LLM Trusted Output Components Manipulation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0043": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0045": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0083",
+    "technique_name": "Credentials from AI Agent Configuration",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0046": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S01",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0101",
+    "technique_name": "Data Destruction via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0047": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0103",
+    "technique_name": "Deploy AI Agent",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0101",
+    "technique_name": "Data Destruction via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0048": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0083",
+    "technique_name": "Credentials from AI Agent Configuration",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0069.002",
+    "technique_name": "System Prompt",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0098",
+    "technique_name": "AI Agent Tool Credential Harvesting",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0092",
+    "technique_name": "Manipulate User LLM Chat History",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0049": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0115.002",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0010.005",
+    "technique_name": "AI Agent Tool",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0110.000",
+    "technique_name": "Definition and Instructions",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0011.002",
+    "technique_name": "Poisoned AI Agent Tool",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S10",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0050": [
+   {
+    "step_id": "S06",
+    "technique": "AML.T0081",
+    "technique_name": "Modify AI Agent Configuration",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0051": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0002.002",
+    "technique_name": "AI Agent Configuration",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0069.000",
+    "technique_name": "Special Character Sets",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0069.001",
+    "technique_name": "System Instruction Keywords",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S10",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S11",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S12",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S13",
+    "technique": "AML.T0081",
+    "technique_name": "Modify AI Agent Configuration",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S14",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S15",
+    "technique": "AML.T0080.001",
+    "technique_name": "Thread",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S16",
+    "technique": "AML.T0108",
+    "technique_name": "AI Agent",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S17",
+    "technique": "AML.T0112.000",
+    "technique_name": "Local AI Agent",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0052": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0084.003",
+    "technique_name": "Call Chains",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S11",
+    "technique": "AML.T0112.000",
+    "technique_name": "Local AI Agent",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0053": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0115.002",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0010.005",
+    "technique_name": "AI Agent Tool",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0110.001",
+    "technique_name": "Implementation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0011.002",
+    "technique_name": "Poisoned AI Agent Tool",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0054": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S01",
+    "technique": "AML.T0115.002",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0010.005",
+    "technique_name": "AI Agent Tool",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0110.000",
+    "technique_name": "Definition and Instructions",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0011.002",
+    "technique_name": "Poisoned AI Agent Tool",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0098",
+    "technique_name": "AI Agent Tool Credential Harvesting",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0055": [
+   {
+    "step_id": "S04",
+    "technique": "AML.T0100",
+    "technique_name": "AI Agent Clickbait",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0112.000",
+    "technique_name": "Local AI Agent",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0056": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0057": [
+   {
+    "step_id": "S05",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0059": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S01",
+    "technique": "AML.T0066",
+    "technique_name": "Retrieval Content Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0070",
+    "technique_name": "RAG Poisoning",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0051.002",
+    "technique_name": "Triggered",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0085.000",
+    "technique_name": "RAG Databases",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0067",
+    "technique_name": "LLM Trusted Output Components Manipulation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0077",
+    "technique_name": "LLM Response Rendering",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0060": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0077",
+    "technique_name": "LLM Response Rendering",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0061": [
+   {
+    "step_id": "S04",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0062": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0063": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0084",
+    "technique_name": "Discover AI Agent Configuration",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0080.001",
+    "technique_name": "Thread",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0094",
+    "technique_name": "Delay Execution of LLM Instructions",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0051.002",
+    "technique_name": "Triggered",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S10",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S11",
+    "technique": "AML.T0101",
+    "technique_name": "Data Destruction via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S12",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S14",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S16",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S18",
+    "technique": "AML.T0085.001",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S19",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0064": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0018.003",
+    "technique_name": "Modify Prompt Construction Logic",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0051.002",
+    "technique_name": "Triggered",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0067",
+    "technique_name": "LLM Trusted Output Components Manipulation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S10",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S11",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0066": [
+   {
+    "step_id": "S00",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0068",
+    "technique_name": "LLM Prompt Obfuscation",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0080.000",
+    "technique_name": "Memory",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0085.001",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S11",
+    "technique": "AML.T0085.001",
+    "technique_name": "AI Agent Tools",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S12",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0067": [
+   {
+    "step_id": "S01",
+    "technique": "AML.T0084.001",
+    "technique_name": "Tool Definitions",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S02",
+    "technique": "AML.T0084.002",
+    "technique_name": "Activation Triggers",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0065",
+    "technique_name": "LLM Prompt Crafting",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S04",
+    "technique": "AML.T0093",
+    "technique_name": "Prompt Infiltration via Public-Facing Application",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S05",
+    "technique": "AML.T0051.001",
+    "technique_name": "Indirect",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S07",
+    "technique": "AML.T0053",
+    "technique_name": "AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S08",
+    "technique": "AML.T0098",
+    "technique_name": "AI Agent Tool Credential Harvesting",
+    "platforms": [
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S09",
+    "technique": "AML.T0057",
+    "technique_name": "LLM Data Leakage",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S10",
+    "technique": "AML.T0086",
+    "technique_name": "Exfiltration via AI Agent Tool Invocation",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0068": [
+   {
+    "step_id": "S04",
+    "technique": "AML.T0118.000",
+    "technique_name": "Communication via Shared Artifacts",
+    "platforms": [
+     "Agentic AI",
+     "Enterprise"
+    ]
+   }
+  ],
+  "AML.CS0069": [
+   {
+    "step_id": "S02",
+    "technique": "AML.T0051.000",
+    "technique_name": "Direct",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S03",
+    "technique": "AML.T0054",
+    "technique_name": "LLM Jailbreak",
+    "platforms": [
+     "Generative AI",
+     "Agentic AI"
+    ]
+   },
+   {
+    "step_id": "S06",
+    "technique": "AML.T0103",
+    "technique_name": "Deploy AI Agent",
+    "platforms": [
+     "Agentic AI"
+    ]
+   }
+  ],
+  "AML.CS0071": [
+   {
+    "step_id": "S03",
+    "technique": "AML.T0118.001",
+    "technique_name": "Direct Agent Communication",
+    "platforms": [
+     "Agentic AI",
+     "Enterprise"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+agent: agentdojo_slack
+injection_surface:
+- tool_output
+pre_satisfied:
+- PA-GA
+node_tools:
+  ENT-DI: []
+  ENT-II:
+  - read_channel_messages
+  - read_inbox
+  - get_webpage
+  PA-GA: []
+  DAC-UBD:
+  - get_channels
+  - read_channel_messages
+  - read_inbox
+  - get_users_in_channel
+  - get_webpage
+  DAC-CS: []
+  DAC-SRD: []
+  INV-AT:
+  - get_channels
+  - add_user_to_channel
+  - read_channel_messages
+  - read_inbox
+  - send_direct_message
+  - send_channel_message
+  - get_users_in_channel
+  - invite_user_to_slack
+  - remove_user_from_slack
+  - get_webpage
+  - post_webpage
+  INV-SCU: []
+  EXE: []
+  SC-SYS:
+  - invite_user_to_slack
+  - remove_user_from_slack
+  SC-DAT:
+  - add_user_to_channel
+  - post_webpage
+  SC-BIZ: []
+  PST-MEM: []
+  PST-KB: []
+  PST-CFG: []
+  ID-RG:
+  - (agent response)
+  ID-ER:
+  - send_direct_message
+  - send_channel_message
+  - post_webpage
+  HD-UI: []
+  HD-UAD: []
+_source: g0_capability_tagging (anchored-LLM, temp=0)

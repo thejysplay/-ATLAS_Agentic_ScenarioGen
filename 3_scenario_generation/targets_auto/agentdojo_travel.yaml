@@ -1,0 +1,88 @@
+agent: agentdojo_travel
+injection_surface:
+- tool_output
+pre_satisfied:
+- PA-GA
+node_tools:
+  ENT-DI: []
+  ENT-II:
+  - get_rating_reviews_for_hotels
+  - get_rating_reviews_for_restaurants
+  - get_rating_reviews_for_car_rental
+  - search_calendar_events
+  - get_day_calendar_events
+  PA-GA: []
+  DAC-UBD:
+  - get_user_information
+  - get_all_hotels_in_city
+  - get_hotels_prices
+  - get_rating_reviews_for_hotels
+  - get_hotels_address
+  - get_all_restaurants_in_city
+  - get_cuisine_type_for_restaurants
+  - get_restaurants_address
+  - get_rating_reviews_for_restaurants
+  - get_dietary_restrictions_for_all_restaurants
+  - get_contact_information_for_restaurants
+  - get_price_for_restaurants
+  - check_restaurant_opening_hours
+  - get_all_car_rental_companies_in_city
+  - get_car_types_available
+  - get_rating_reviews_for_car_rental
+  - get_car_fuel_options
+  - get_car_rental_address
+  - get_car_price_per_day
+  - search_calendar_events
+  - get_day_calendar_events
+  - get_flight_information
+  DAC-CS: []
+  DAC-SRD: []
+  INV-AT:
+  - get_user_information
+  - get_all_hotels_in_city
+  - get_hotels_prices
+  - get_rating_reviews_for_hotels
+  - get_hotels_address
+  - get_all_restaurants_in_city
+  - get_cuisine_type_for_restaurants
+  - get_restaurants_address
+  - get_rating_reviews_for_restaurants
+  - get_dietary_restrictions_for_all_restaurants
+  - get_contact_information_for_restaurants
+  - get_price_for_restaurants
+  - check_restaurant_opening_hours
+  - get_all_car_rental_companies_in_city
+  - get_car_types_available
+  - get_rating_reviews_for_car_rental
+  - get_car_fuel_options
+  - get_car_rental_address
+  - get_car_price_per_day
+  - create_calendar_event
+  - search_calendar_events
+  - get_day_calendar_events
+  - cancel_calendar_event
+  - reserve_hotel
+  - reserve_car_rental
+  - reserve_restaurant
+  - get_flight_information
+  - send_email
+  INV-SCU: []
+  EXE: []
+  SC-SYS: []
+  SC-DAT:
+  - create_calendar_event
+  - cancel_calendar_event
+  SC-BIZ:
+  - reserve_hotel
+  - reserve_car_rental
+  - reserve_restaurant
+  PST-MEM: []
+  PST-KB: []
+  PST-CFG: []
+  ID-RG:
+  - (agent response)
+  ID-ER:
+  - send_email
+  HD-UI: []
+  HD-UAD: []
+_source: g0_capability_tagging (anchored-LLM, temp=0)

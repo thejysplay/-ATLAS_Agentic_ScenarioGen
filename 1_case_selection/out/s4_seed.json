@@ -1,0 +1,78 @@
+{
+ "seed": [
+  "AML.CS0016",
+  "AML.CS0020",
+  "AML.CS0021",
+  "AML.CS0024",
+  "AML.CS0026",
+  "AML.CS0029",
+  "AML.CS0035",
+  "AML.CS0037",
+  "AML.CS0038",
+  "AML.CS0039",
+  "AML.CS0040",
+  "AML.CS0045",
+  "AML.CS0046",
+  "AML.CS0051",
+  "AML.CS0052",
+  "AML.CS0054",
+  "AML.CS0055",
+  "AML.CS0059",
+  "AML.CS0062",
+  "AML.CS0063",
+  "AML.CS0066",
+  "AML.CS0067"
+ ],
+ "excluded": {
+  "means": {
+   "AML.CS0061": "AI를 C2 릴레이(통신 인프라)로 악용 — 피해자=malware 표적, 에이전트는 도관(수단)",
+   "AML.CS0068": "자율 에이전트를 부려 외부 인프라(HuggingFace) 침해 — 피해자=인프라, 에이전트는 수단",
+   "AML.CS0069": "탈옥 Claude Code를 사이버 간첩 도구로 악용(30개 조직) — 피해자=조직, 에이전트는 수단",
+   "AML.CS0071": "다중 에이전트 프레임워크로 정부 시스템 침해 — 피해자=정부, 에이전트는 수단"
+  },
+  "supply_chain": {
+   "AML.CS0041": "AI 코딩 어시스턴트 rules 파일 오염 — 설정 컴포넌트 사전 배치",
+   "AML.CS0047": "Amazon Q 확장 저장소에 악성코드 커밋 — 배포 공급망",
+   "AML.CS0049": "레지스트리 배포 오염 스킬 — 스킬 패키지 공급망",
+   "AML.CS0053": "postmark-mcp npm 패키지 impersonation — 패키지 공급망",
+   "AML.CS0064": "오염 GGUF 채팅 템플릿 — 추론-시점 공급망"
+  },
+  "non_runtime": {
+   "AML.CS0036": "LLM 데스크톱 앱 메모리에서 토큰 추출 — 메모리 포렌식(주입 아님)",
+   "AML.CS0048": "노출된 제어 인터페이스 접근 — 네트워크 노출/설정(주입 아님)",
+   "AML.CS0050": "악성 링크 1-click RCE — 전통 소프트웨어 취약점"
+  }
+ },
+ "knowledge": [
+  "AML.CS0016",
+  "AML.CS0020",
+  "AML.CS0021",
+  "AML.CS0024",
+  "AML.CS0026",
+  "AML.CS0029",
+  "AML.CS0035",
+  "AML.CS0036",
+  "AML.CS0037",
+  "AML.CS0038",
+  "AML.CS0039",
+  "AML.CS0040",
+  "AML.CS0041",
+  "AML.CS0045",
+  "AML.CS0046",
+  "AML.CS0047",
+  "AML.CS0048",
+  "AML.CS0049",
+  "AML.CS0050",
+  "AML.CS0051",
+  "AML.CS0052",
+  "AML.CS0053",
+  "AML.CS0054",
+  "AML.CS0055",
+  "AML.CS0059",
+  "AML.CS0062",
+  "AML.CS0063",
+  "AML.CS0064",
+  "AML.CS0066",
+  "AML.CS0067"
+ ]
+}

@@ -1,0 +1,53 @@
+agent: agentdojo_banking
+injection_surface:
+- tool_output
+pre_satisfied:
+- PA-GA
+node_tools:
+  ENT-DI: []
+  ENT-II:
+  - get_most_recent_transactions
+  - get_scheduled_transactions
+  - read_file
+  PA-GA: []
+  DAC-UBD:
+  - get_iban
+  - get_balance
+  - get_most_recent_transactions
+  - get_scheduled_transactions
+  - read_file
+  - get_user_info
+  DAC-CS: []
+  DAC-SRD: []
+  INV-AT:
+  - get_iban
+  - send_money
+  - schedule_transaction
+  - update_scheduled_transaction
+  - get_balance
+  - get_most_recent_transactions
+  - get_scheduled_transactions
+  - read_file
+  - get_user_info
+  - update_password
+  - update_user_info
+  INV-SCU: []
+  EXE: []
+  SC-SYS:
+  - update_password
+  SC-DAT:
+  - update_user_info
+  SC-BIZ:
+  - send_money
+  - schedule_transaction
+  - update_scheduled_transaction
+  PST-MEM: []
+  PST-KB: []
+  PST-CFG: []
+  ID-RG:
+  - (agent response)
+  ID-ER:
+  - send_money
+  HD-UI: []
+  HD-UAD: []
+_source: g0_capability_tagging (anchored-LLM, temp=0)
